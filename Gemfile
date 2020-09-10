@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'capistrano',                 '3.11.2'
+gem 'capistrano-rails',           '1.4.0'
+gem 'capistrano-rvm'
+gem 'capistrano-passenger',       '0.2.0'
+gem 'capistrano-bundler'
+
+
 gem 'rails',                      '6.0.2.1'
 gem 'image_processing',           '1.9.3'
 gem 'mini_magick',                '4.9.5'
