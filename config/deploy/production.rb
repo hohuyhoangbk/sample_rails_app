@@ -21,7 +21,7 @@
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
-set :deploy_to, "/home/ubuntu/deploy/demo_hoanghh"
+set :deploy_to, "/home/ubuntu/deploy/sample_rails_app"
 
 server "ec2-54-151-225-1.ap-southeast-1.compute.amazonaws.com", user: "ubuntu", roles: %w{app db web}
 set :ssh_options, {
