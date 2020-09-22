@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec_junit_formatter'
   gem 'rubocop'
+  gem 'rubocop-rails', require: false
   gem 'rubocop-checkstyle_formatter', require: false
 end
 
