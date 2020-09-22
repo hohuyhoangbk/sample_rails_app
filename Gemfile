@@ -7,7 +7,7 @@ gem 'capistrano-rvm'
 gem 'capistrano-passenger',       '0.2.0'
 gem 'capistrano-bundler'
 
-gem 'rspec’, require: false
+gem 'rspec', require: false
 gem 'rspec_junit_formatter', require: false
 
 gem 'rails',                      '6.0.2.1'
