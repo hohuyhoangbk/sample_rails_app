@@ -38,6 +38,8 @@ group :development, :test do
   gem 'ci_reporter'
   gem 'ci_reporter_rspec'
   gem "brakeman", :require => false
+  gem 'rspec'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
