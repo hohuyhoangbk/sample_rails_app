@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'ci_reporter_rspec'
 gem 'capistrano',                 '3.11.2'
 gem 'capistrano-rails',           '1.4.0'
 gem 'capistrano-rvm'
