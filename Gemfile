@@ -7,9 +7,6 @@ gem 'capistrano-rvm'
 gem 'capistrano-passenger',       '0.2.0'
 gem 'capistrano-bundler'
 
-gem 'rspec'
-gem 'rspec_junit_formatter'
-
 gem 'rails',                      '6.0.2.1'
 gem 'image_processing',           '1.9.3'
 gem 'mini_magick',                '4.9.5'
@@ -35,6 +32,10 @@ group :development, :test do
   gem 'simplecov',          '0.17.1'
   gem 'sqlite3',            '1.4.1'
   gem 'byebug',             '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+end
+
+group :development, :test do
+  gem 'ci_reporter_rspec'
 end
 
 group :development do
