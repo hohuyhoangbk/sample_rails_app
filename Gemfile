@@ -40,6 +40,8 @@ group :development, :test do
   gem "brakeman", :require => false
   gem 'rspec'
   gem 'rspec_junit_formatter'
+  gem 'rubocop'
+  gem 'rubocop-checkstyle_formatter', require: false
 end
 
 group :development do
