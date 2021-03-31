@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # Upgrade AWS CLI to the latest version
+      - pip3 install awscli --upgrade --user
+
+      # Install Ruby dependencies from the Gemfile.
+      - bundle install --deployment
+
+  build:
+    commands:
+      # Run the tests using RSpec.
+      - rspec
