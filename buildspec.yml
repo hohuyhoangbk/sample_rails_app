@@ -7,7 +7,7 @@ phases:
       - pip3 install awscli --upgrade --user
 
       # Install Ruby dependencies from the Gemfile.
-      - bundle install --deployment
+      - bundle install
 
   build:
     commands:
